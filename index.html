@@ -1,53 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Busca Itens — GoDevs</title>
-  <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca Itens - GoDevs</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <main class="container">
-    <header class="header">
-      <h1>Busca “Live” em Lista de Benefícios</h1>
-      <p>Digite no campo abaixo e veja a lista filtrar instantaneamente.</p>
-    </header>
-
-    <section class="card">
-      <label class="label" for="search">Buscar benefício</label>
-      <input
-        id="search"
-        class="input"
-        type="text"
-        placeholder="Ex.: suporte, cashback, descontos..."
-        autocomplete="off"
-        aria-label="Campo de busca"
-      />
-
-      <div class="meta" aria-live="polite">
-        <span id="resultCount">Mostrando: 10</span>
-      </div>
-
-      <ul id="benefitsList" class="list">
-        <li class="item">Acesso antecipado a novidades</li>
-        <li class="item">Cashback em compras parceiras</li>
-        <li class="item">Suporte prioritário</li>
-        <li class="item">Descontos em planos anuais</li>
-        <li class="item">Conteúdos exclusivos</li>
-        <li class="item">Cupons mensais</li>
-        <li class="item">Participação em sorteios</li>
-        <li class="item">Área VIP com materiais bônus</li>
-        <li class="item">Atendimento via WhatsApp</li>
-        <li class="item">Benefícios em eventos</li>
-      </ul>
-
-      <p id="emptyState" class="empty" hidden>
-        Nenhum item combina com sua busca.
-      </p>
-    </section>
-
-  </main>
-
-  <script src="./js/script.js"></script>
+    <main>
+        <h1>Missão do Dia: Busca 'Live' em Lista de Benefícios</h1>
+        <input type="text" id="search" placeholder="Buscar benefício..." autofocus>
+        <ul id="benefits-list">
+            <li>GoDevs</li>
+            <li>Saboroso Dev</li>
+            <li>LuanPdd</li>
+            <li>Geração Tech</li>
+            <li>Home Office</li>
+            <li>FreeLancer</li>
+            <li>Alunos - GoDevs</li>
+            <li>Constancia</li>
+            <li>Participação nos estudos</li>
+            <li>Programação</li>
+        </ul>
+    </main>
+    <script src="js/script.js"></script>
 </body>
 </html>
